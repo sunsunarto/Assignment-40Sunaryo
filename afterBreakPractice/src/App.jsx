@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
+import "./App.css";
 
 const AnimationComponent = () => {
   const squareRef = useRef(null);
